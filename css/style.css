@@ -4,7 +4,7 @@ body {
     width: 100%;
     height:100%;
     color:#000000;
-    background-color: darkorange;
+    background-color: aliceblue;
     font-family: sans-serif, ;
 }
 
@@ -12,14 +12,14 @@ body {
     z-index: 10;
     margin: 10px auto 10px auto;
     width:1000px;
-    height:2000px;
+    height:1900px;
     padding:10px;
     border-radius: 10px 10px 10px 10px;
 }
 
 #logo {
     z-index: 30;
-    margin: -10px 20px 20px -155px;
+    margin: -90px 10px 20px -155px;
     width:225px;
     height:225px;
     border:1px solid #000000;
@@ -33,20 +33,19 @@ body {
     float:left;
     margin: 20px 5px 20px 20px;
     width:200px;
-    height:1950px;
+    height:1800px;
     padding:20px;
     border:1px solid #000000;
-    background-color: powderblue;
     border-radius: 10px 10px 10px 10px;
     box-shadow: inset 0 0 4px 4px #888;
-    background-color:lightblue;
+    background-color:steelblue;
     border-right: 1px solid black;
 
 }
 
 #left ul {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 210px;
 
 }
 
@@ -71,8 +70,9 @@ body {
 #left ul li a:hover{
     font-size: 25px;
     text-decoration: none;
-    color: rebeccapurple;
-    font-variant: normal;
+    color: navy;
+    font-variant: small-caps;
+    font-weight: bold;
 }
 
 #left ul li a:active {
@@ -88,7 +88,7 @@ body {
 }
 
 #right ul li {
-    list-style-type: circle;
+    list-style-type: disc;
     list-style-position: outside;
     text-align: left;
     margin: 5px 0px 5px 0px;
@@ -101,27 +101,21 @@ body {
     float:left;
     margin: 20px auto 20px auto;
     width:720px;
-    height:1950px;
+    height:1800px;
     padding-left:50px;
-    padding-right: 15px;
-    border:1px solid #000000;
+    padding-right: 50px;
     background-color: aliceblue;    
-    border-radius: 10px 10px 10px 10px;
-    box-shadow:  inset 0 0 4px 4px #888;  
 }
 
 #rightt {
-     z-index: 20;
+    z-index: 20;
     float:left;
     margin: 20px auto 20px auto;
     width:720px;
     height:1950px;
     padding-left:50px;
     padding-right: 15px;
-    border:1px solid #000000;
     background-color: aliceblue;    
-    border-radius: 10px 10px 10px 10px;
-    box-shadow:  inset 0 0 4px 4px #888; 
 }
 
 #right p{
@@ -169,6 +163,9 @@ h1 {
     font-size:60px;
     font-variant: small-caps;
     padding: 20px 20px 20px 20px ;
+    font-family:monospace;
+    color: darkorange;
+    text-shadow: 0 0 .9em navy;
 }
 
 h2 {
@@ -227,7 +224,6 @@ pl{
 .GitHubScreen{
     float:center;
     width:90%;
-    height:auto;
     margin:20px 10px 20px 10px;
 }
 
