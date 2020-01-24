@@ -20,7 +20,7 @@ body {
 
 #logo {
     z-index: 30;
-    margin: -90px 10px 20px -155px;
+    margin: -170px 10px 20px -155px;
     width:225px;
     height:225px;
     border:1px solid #000000;
@@ -241,6 +241,7 @@ pl{
     height: 15px;
     float: right;
 }
-    
+
+
 /*to make text be writen like looking at it in mirror. 
 direction: rtl;  
