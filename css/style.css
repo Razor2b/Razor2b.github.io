@@ -219,7 +219,7 @@ pl{
 
 .GitHubScreen{
     float:center;
-    margin:20px 10px 20px 10px;
+    margin:20px 20px 20px 20px;
 }
 
 .SelfPhoto1{
@@ -239,6 +239,7 @@ pl{
     margin: 20px;
     padding: -50px;
     height: 15px;
+    float: right;
 }
     
 /*to make text be writen like looking at it in mirror. 
