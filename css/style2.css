@@ -71,3 +71,9 @@ body {
     background-color: #E6E6FA;
     text-decoration: none;
 }
+
+.btn a:hover {
+    color: #483D8B;
+    background-color: #E6E6FA;
+    text-decoration: none;
+}
