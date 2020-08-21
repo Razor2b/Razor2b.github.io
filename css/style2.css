@@ -1,18 +1,16 @@
 html{
     background-image: url(../images/japan3.jpg);
     background-repeat: no-repeat;
-    background-size: 1500px 650px;
-    width: 100%;
+    background-size: 1495px 650px;
 }
 
 body {
-    width: 100%;
-    height: fit-content;
-    font-family: sans-serif, ; 
+    height: 600px;
+    font-family: sans-serif;
+    position: relative;
 }
 
 #header{
-    width:100%;
     max-height:300px;
     background-position: center;
     margin: 10px;
@@ -26,16 +24,19 @@ body {
     margin: 10px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 10px 0 black, 0 -1px black;
-    font-variant: small-caps;    
+    font-variant: small-caps;
+    font-size:13vw; /*Use this when text needs to shrink when the website 
+    is displayed on a smaller screen i.e cell phones*/
 }
 
 .container {
-    width: 100%;
     max-width: 100;
     text-align: center;
     float: center;
     font-size: 50px;
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    position: relative;
 }
 
 .btn {
