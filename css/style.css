@@ -200,11 +200,18 @@ pre a:active {
 }
 
 pre a:hover{
-    font-size: 25.5px;
+    font-size: 25px;
     text-decoration: none;
     color: #765f6c;
     font-variant: small-caps;
     font-weight: bold;
+}
+
+pre a:visited {
+    font-size: 25px;
+    text-decoration: none;
+    color:#765f6c;
+    font-variant: small-caps;
 }
 
 pl{
