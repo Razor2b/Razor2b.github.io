@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: fit-content;
     color:#000000;
-    background-color: rgb(247, 231, 203);
+    background-color: #f3c5b0;
     font-family: sans-serif, ;
 }
 
@@ -68,7 +68,7 @@ body {
 #left ul li a:hover{
     font-size: 25px;
     text-decoration: none;
-    color: darkcyan;
+    color: #483D8B;
     font-variant: small-caps;
     font-weight: bold;
 }
@@ -178,8 +178,34 @@ pre {
     font-family:sans-serif;
     text-align: center;
     font-size: 20px;
+    text-decoration: none;
+    color: #765f6c;
+    font-variant: small-caps;
+    font-weight: bold;
 }
 
+pre a:link {
+    font-size: 25px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: #765f6c;
+    font-weight: bold;
+}
+
+pre a:active {
+    font-size: 25px;
+    text-decoration: none;
+    color:#765f6c;
+    font-variant: small-caps;
+}
+
+pre a:hover{
+    font-size: 25.5px;
+    text-decoration: none;
+    color: #765f6c;
+    font-variant: small-caps;
+    font-weight: bold;
+}
 
 pl{
     text-align: center;
