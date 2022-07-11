@@ -103,7 +103,6 @@ body {
     height: fit-content;
     border-left: 2px solid #000;
     padding-left:50px;
-    padding-right: 50px; 
 }
 
 
@@ -174,6 +173,17 @@ pre2 {
     font-size: 15px;
 }
 
+pre3 /* LinkedIn and Twitter logo paragraph */{
+    height: 100%;
+    float: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 15%;
+    border: 5%;
+
+}
+
 pre {
     font-family:sans-serif;
     text-align: center;
@@ -182,6 +192,8 @@ pre {
     color: #765f6c;
     font-variant: small-caps;
     font-weight: bold;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pre a:link {
@@ -190,6 +202,8 @@ pre a:link {
     font-variant: small-caps;
     color: #765f6c;
     font-weight: bold;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pre a:active {
@@ -197,6 +211,8 @@ pre a:active {
     text-decoration: none;
     color:#765f6c;
     font-variant: small-caps;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pre a:hover{
@@ -205,6 +221,8 @@ pre a:hover{
     color: #765f6c;
     font-variant: small-caps;
     font-weight: bold;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pre a:visited {
@@ -212,6 +230,8 @@ pre a:visited {
     text-decoration: none;
     color:#765f6c;
     font-variant: small-caps;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pl{
@@ -265,14 +285,11 @@ label {
 }
 
 .LinkedIn_logo{
-    margin: 20px;
-    padding: -50px;
     border-radius: 10%;
+    width: 7px;
 }
 
 .Twitter_logo{
-    margin: 20px;
-    padding: -50px;
     border-radius: 10%;
 }
 

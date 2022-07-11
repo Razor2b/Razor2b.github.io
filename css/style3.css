@@ -165,6 +165,8 @@ pre {
     color: #765f6c;
     font-variant: small-caps;
     font-weight: bold;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pre a:link {
@@ -173,6 +175,8 @@ pre a:link {
     font-variant: small-caps;
     color: #765f6c;
     font-weight: bold;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pre a:active {
@@ -180,6 +184,8 @@ pre a:active {
     text-decoration: none;
     color:#765f6c;
     font-variant: small-caps;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pre a:hover{
@@ -188,6 +194,8 @@ pre a:hover{
     color: #765f6c;
     font-variant: small-caps;
     font-weight: bold;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pre a:visited {
@@ -195,6 +203,8 @@ pre a:visited {
     text-decoration: none;
     color:#765f6c;
     font-variant: small-caps;
+    text-shadow: .05em -.05em .05em silver,
+                    .03em .03em .05em white;
 }
 
 pl{
